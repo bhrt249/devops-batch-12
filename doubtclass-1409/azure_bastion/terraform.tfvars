@@ -1,0 +1,8 @@
+resource_group_name = "rg_bastion_test"
+location = "East US"
+pip_allocation_method = "Static" 
+pip_sku = "Standard"
+pip_name = "bastion_test_ip"
+bastion_name = "bastion_test"
+bastion_ip_configuration_name = "ipconfig"
+virtual_network_name = "vnet_bastion_test"
